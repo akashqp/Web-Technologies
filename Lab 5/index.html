@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" class="screen" disabled><br>
+      <button class="number" onclick="buttonClicked('7')">7</button>
+      <button class="number" onclick="buttonClicked('8')">8</button>
+      <button class="number" onclick="buttonClicked('9')">9</button>
+      <button class="operator" onclick="buttonClicked('/')">/</button><br>
+      <button class="number" onclick="buttonClicked('4')">4</button>
+      <button class="number" onclick="buttonClicked('5')">5</button>
+      <button class="number" onclick="buttonClicked('6')">6</button>
+      <button class="operator" onclick="buttonClicked('*')">*</button><br>
+      <button class="number" onclick="buttonClicked('1')">1</button>
+      <button class="number" onclick="buttonClicked('2')">2</button>
+      <button class="number" onclick="buttonClicked('3')">3</button>
+      <button class="operator" onclick="buttonClicked('-')">-</button><br>
+      <button class="number" onclick="buttonClicked('0')">0</button>
+      <button class="number" onclick="buttonClicked('.')">.</button>
+      <button class="equal" onclick="buttonClicked('=')">=</button>
+      <button class="operator" onclick="buttonClicked('+')">+</button><br>
+      <button class="clear" onclick="buttonClicked('C')">Clear</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
